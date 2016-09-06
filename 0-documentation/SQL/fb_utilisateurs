@@ -13,6 +13,6 @@ CREATE TABLE fb_utilisateurs
     active TINYINT(1) unsigned,
     -- Fin des champs de tb_users
 
-    -- Club auquel appartien l'utilisateur
+    -- Club auquel appartient l'utilisateur
     club_id INT(11)
 );
