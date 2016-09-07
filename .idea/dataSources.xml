@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="MySQL - ms-football@localhost" uuid="367f774f-3221-40cc-ae0d-40dd61555341">
+    <data-source source="LOCAL" name="MySQL - ms_football@localhost" uuid="fb6d1fa8-a4b2-45cb-953b-f69a3f5ea53f">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/ms-football</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/ms_football</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

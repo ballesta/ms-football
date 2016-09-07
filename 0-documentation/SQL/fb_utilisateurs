@@ -1,4 +1,6 @@
 -- Utilisateurs du site
+-- Géré en parallèle avec tb_users
+-- Synchronisation par 'triggers'
 CREATE TABLE fb_utilisateurs
 (
     -- Mêmes champs que tb_users
@@ -14,5 +16,8 @@ CREATE TABLE fb_utilisateurs
     -- Fin des champs de tb_users
 
     -- Club auquel appartient l'utilisateur
-    club_id INT(11)
+    club_id INT(11),
+    -- Fonction dans le group_id.
+    -- Utilisé pour le staff (Kiné, Analyste vidéo, ...)
+    fonction VARCHAR(100)
 );

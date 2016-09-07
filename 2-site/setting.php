@@ -1,14 +1,14 @@
 <?php 
 define('CNF_APPNAME','MS-Football');
 define('CNF_APPDESC','PHP Application Builder ');
-define('CNF_COMNAME','MS-Football');
-define('CNF_EMAIL','info@mycompanyname.com');
+define('CNF_COMNAME','BBI');
+define('CNF_EMAIL','bernard@ballesta.fr');
 define('CNF_METAKEY','Football mesures performances');
 define('CNF_METADESC','Performances des joueurs');
 define('CNF_GROUP','3');
 define('CNF_ACTIVATION','auto');
 define('CNF_MULTILANG','1');
-define('CNF_LANG','en');
+define('CNF_LANG','fr');
 define('CNF_REGIST','true');
 define('CNF_FRONT','true');
 define('CNF_RECAPTCHA','false');
